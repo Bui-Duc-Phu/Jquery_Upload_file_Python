@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "297053333157",
+    "firebase_url": "https://sms-hacking-8b10c-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "sms-hacking-8b10c",
+    "storage_bucket": "sms-hacking-8b10c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297053333157:android:1692c99b8743c3251f0f4c",
+        "android_client_info": {
+          "package_name": "com.example.codes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACN9nmzbEnhE8s2hkFd-OUPfOkLVtsvhY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
