@@ -488,21 +488,18 @@ File: yarn.lock
   Size: 2815 bytes
   Contains executable commands: True
   Detected keywords: mv, ps, del, rd, dd
-  
 
 File: exploit.js
   Extension: js
   Size: 252 bytes
   Contains executable commands: True
   Detected keywords: exec, require, child_process, del
-  
 
 File: BuiDucPhu_CV_Developer.pdf
   Extension: pdf
   Size: 129158 bytes
   Contains executable commands: True
   Detected keywords: system, mv, cp, ps, rd, start, dd
-  Prediction: Safe file
 
 File: package.json
   Extension: json
@@ -536,87 +533,106 @@ File: Bùi Đức Phú_ bảng điểm.docx
   Size: 1472431 bytes
   Contains executable commands: True
   Detected keywords: mv, cp, ps, top, del, rd, dd
-  Prediction: Safe file
 
 File: sms-hacking-8b10c-firebase-adminsdk-83bxt-f586402583.json
   Extension: json
   Size: 2391 bytes
   Contains executable commands: True
   Detected keywords: mv, ps, rd, dd
-  
 
 File: Bùi Đức Phú_ bảng điểm.docx
   Extension: docx
   Size: 1472431 bytes
   Contains executable commands: True
   Detected keywords: mv, cp, ps, top, del, rd, dd
-  Prediction: Safe file
 
 File: NguyenNgocHung_CV_InternTester.pdf
   Extension: pdf
   Size: 80626 bytes
   Contains executable commands: True
   Detected keywords: mv, cp, ps, del, rd, start, dd
-  Prediction: Safe file
 
 File: HuynhTrongThua_N20DCAT041_VoThanhPhong_BCCK.pdf
   Extension: pdf
   Size: 2318866 bytes
   Contains executable commands: True
   Detected keywords: system, mv, cp, ps, top, del, rd, start, move, dd
-  Prediction: Safe file
 
 File: google-services (1).json
   Extension: json
   Size: 780 bytes
   Contains executable commands: True
   Detected keywords: ps
-  
 
 File: 96 nhóm đăng bài etsy (4).txt
   Extension: txt
   Size: 7122 bytes
   Contains executable commands: True
   Detected keywords: ps
-  Prediction: Safe file
 
 File: Bùi Đức Phú_ bảng điểm.docx
   Extension: docx
   Size: 1472431 bytes
   Contains executable commands: True
   Detected keywords: mv, cp, ps, top, del, rd, dd
-  Prediction: Safe file
 
 File: index.js
   Extension: js
   Size: 517 bytes
   Contains executable commands: True
   Detected keywords: require
-  
 
 File: exploit.js
   Extension: js
   Size: 252 bytes
   Contains executable commands: True
   Detected keywords: exec, require, child_process, del
-  
 
 File: abc.py
   Extension: py
   Size: 16 bytes
   Contains executable commands: False
   Detected keywords:
-  
 
 File: attack_file_1.php
   Extension: php
   Size: 1543 bytes
   Contains executable commands: True
   Detected keywords: <?php, eval, shell_exec
+
+File: package.json
+  Extension: json
+  Size: 143 bytes
+  Contains executable commands: False
+  Detected keywords: 
+
 File: index.js
   Extension: js
   Size: 517 bytes
   Contains executable commands: True
   Detected keywords: require
-  Prediction: Attack detected
+
+File: exploit.js
+  Extension: js
+  Size: 252 bytes
+  Contains executable commands: True
+  Detected keywords: exec, require, child_process, del
+
+File: package.json
+  Extension: json
+  Size: 143 bytes
+  Contains executable commands: False
+  Detected keywords: 
+
+File: yarn.lock
+  Extension: lock
+  Size: 2815 bytes
+  Contains executable commands: True
+  Detected keywords: mv, ps, del, rd, dd
+
+File: exploit.js
+  Extension: js
+  Size: 252 bytes
+  Contains executable commands: True
+  Detected keywords: exec, require, child_process, del
 

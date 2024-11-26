@@ -61,8 +61,6 @@ def request(flow: http.HTTPFlow):
                                 log_file.write(f"  Extension: {features['extension']}\n")
                                 log_file.write(f"  Size: {features['size']} bytes\n")
                                 log_file.write(f"  Contains executable commands: {features['contains_exec']}\n")
-                                if features["contains_exec"]:
-                                    log_file.write(f"  Detected keywords: {', '.join(features['detected_keywords'])}\n")
-                                log_file.write(f"  Prediction: {'Attack detected' if is_attack else 'Safe file'}\n")
+                                log_file.write(f"  Detected keywords: {', '.join(features['detected_keywords'])}\n")
                                 log_file.write("\n")
         print("Request info and file features saved.")
